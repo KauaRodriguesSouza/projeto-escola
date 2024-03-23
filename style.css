@@ -16,8 +16,17 @@ header{
 
 main{
     margin: 20px auto;
-    width: 78vw;
 
+}
+
+
+.tl{
+    margin-left: 200px;
+}
+
+.tl-2{
+    text-align: end;
+    margin-right: 160px;
 }
 
 .texto-prin{
@@ -27,14 +36,16 @@ main{
 }
 
 .container {
+    margin: auto;
     display: flex;
+    width: 78vw;
 }
 
 .column {
     flex: 1;
     padding: 20px;
-    margin: 10px;
-    background-color: #c8c8c867;
+    margin: 15px;
+    background-color: #c8c8c830;
     border-radius: 10px;
 
 }
@@ -75,14 +86,16 @@ h1 {
 
 
 .tba {
-    width: 350px;
-    height: 300px;
+    width: 450px;
+    height: 370px;
+    margin-left: 40px;
 }
 
 .container-2{
+    width: 78vw;
+    margin: auto;
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 .container-2 h1{
@@ -95,6 +108,7 @@ h1 {
 .column-2 {  
     padding: 30px;
     width: 50%;
+    margin: 20px;
 }
 
 h2{
@@ -102,21 +116,60 @@ h2{
     font-size: 30px;
     font-weight: normal;
 }
-.container-2 p{
+p{
     padding: 10px;
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .container-3 {
+    width: 78vw;
     display: flex;
+    margin: auto;
 }
 .column-3 {
     flex: 1;
+    margin: auto;
     padding: 20px;
     margin: 5px;
 }
 
 .column-3 img{
-    margin: 20px 0px 0px 101px;
+    margin: 20px 0px 0px 60px;
+}
+
+.column-3 p{
+    font-size: 17px;
+}
+
+.container-4 {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 450px;
+    background-color: #004aad;
+}
+
+.container-4 h1{
+    margin: 0;
+    font-weight: 900;
+    text-shadow: 3px 1px 1px black;
+}
+
+.container-4 img {
+    height: 420px;
+    width: 240px;
+    margin-left: 200px;
+
+}
+
+.column-4{
+    width: 60%;
+    margin: 10px;
+}
+
+.column-4 p{
+    width: 600px;
+    font-size: 22px;
+    font-weight: 500;
 }
