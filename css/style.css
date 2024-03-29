@@ -12,6 +12,7 @@
 
 header{ 
     background-color: #850606;
+    height: 70px;
 }
 
 .tl{
@@ -24,6 +25,7 @@ header{
         text-align: end;
 
     }
+
 @media screen and (max-width: 677px) {
 
     .container{
@@ -33,6 +35,7 @@ header{
     .column{
         padding: 10px;
         margin: auto;
+        font-size: 18px;
         text-align: justify;
     }
 
