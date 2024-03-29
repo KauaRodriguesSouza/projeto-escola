@@ -11,7 +11,6 @@
 }
 
 header{ 
-    height: 80px;
     background-color: #850606;
 }
 
@@ -53,7 +52,7 @@ header{
     }
     
     .column-2 img{
-        width: 370px;
+        width: 100%;
         margin: 10px;
     }
 
