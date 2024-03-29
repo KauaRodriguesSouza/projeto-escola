@@ -7,34 +7,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin: auto;
+
 }
 
 header{ 
     background-color: #850606;
     height: 70px;
 }
-
 .tl{
-
     display: flex;
-    margin: 15px 0px 15px 0px;
-    }
+    margin-left: 10%;
+}
 
-    .tl-2{
-        text-align: end;
+.tl-2{
+    display: flex;
+    margin-left: 80%;
+}
 
-    }
-
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 677px ) {
 
     .container{
         width: 80vw;
+        margin: auto;
     }
 
     .column{
         padding: 10px;
-        margin: auto;
         font-size: 18px;
         text-align: justify;
     }
@@ -52,6 +50,7 @@ header{
 
     .container-2{
         width: 80vw;
+        margin: auto;
     }
     
     .column-2 img{
@@ -81,6 +80,7 @@ header{
      }
      
     .container-3{
+        margin: auto;
         margin-top: 20px;
         text-align: justify;
         width: 80vw;
@@ -92,10 +92,109 @@ header{
         width: 80vw;
     }
     .column-3 img{
-        margin-left: 20%;
+        margin-left: 30%;
     }
 
     .container-4{
+        display: flex;
+        text-align: center;
+        background-color: #004aad;
+        color: white;
+    }
+
+    a{
+        color: #00d5ff;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #082fb0;
+    }
+
+    .column-4 h1{
+        font-size: 40px;
+    }
+
+    .column-4 p{
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 678px) {
+
+    .container{
+        width: 80vw;
+        display: flex;
+        margin: auto;
+    }
+
+    .column {
+        flex: 1;
+        padding: 10px;
+        margin: 5px;
+        background-color: #c8c8c84e;
+        border-radius: 10px;
+    }
+    .citação{
+        font-size: 15px;
+        color: #0069d2;
+        margin: 7px;
+        font-weight: 900;
+    }
+    .citação:hover{
+        color: #0b144b;
+        cursor: pointer;
+    }
+
+    .container-2{
+        width: 80vw;
+        margin: auto;
+    }
+    
+    .column-2 img{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .column-2{
+        margin-top: 40px;
+     }
+     
+     .column-2 h1{
+        font-size: 50px;
+        font-weight: normal;
+     }
+
+     .column-2 h2{
+        font-size: 35px;
+        color: #0069d2;
+        margin: 15px;
+        cursor: pointer;
+     }
+
+     .column-2 p{
+        font-size: 20px;
+        text-align: justify;
+     }
+     
+    .container-3{
+        margin: auto;
+        margin-top: 20px;
+        text-align: justify;
+        width: 80vw;
+     }
+    .column-3{
+        margin-top: 13px;
+        font-size: 18px;
+        text-align: justify;
+        width: 80vw;
+    }
+    .column-3 img{
+        margin-left: 30%;
+    }
+
+    .container-4{
+        margin: auto;
         display: flex;
         text-align: center;
         background-color: #004aad;
