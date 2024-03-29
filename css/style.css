@@ -27,7 +27,7 @@ header{
 @media screen and (max-width: 677px) {
 
     .container{
-        width: 70vw;
+        width: 80vw;
     }
 
     .column{
@@ -48,7 +48,7 @@ header{
     }
 
     .container-2{
-        width: 70vw;
+        width: 80vw;
     }
     
     .column-2 img{
@@ -80,13 +80,13 @@ header{
     .container-3{
         margin-top: 20px;
         text-align: justify;
-        width: 70vw;
+        width: 80vw;
      }
     .column-3{
         margin-top: 13px;
         font-size: 18px;
         text-align: justify;
-        width: 70vw;
+        width: 80vw;
     }
     .column-3 img{
         margin-left: 20%;
