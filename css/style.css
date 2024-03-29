@@ -93,21 +93,26 @@ header{
     }
 
     .container-4{
-        background-color: #004aad;
         display: flex;
+        background-color: #004aad;
         color: white;
     }
 
-    .container-4 img{
-       width: 140px;
+    .tba{
+       
+       width: 130px;
+       height: 250px;
        margin: 5px;
+       margin-top: 10%;
     }
 
-    .container-4 h1{
+    .column-4 h1{
         font-size: 40px;
+        text-align: center;
     }
 
-    .container-4 p{
+    .column-4 p{
         font-size: 18px;
+        padding: 5px;
     }
 }
