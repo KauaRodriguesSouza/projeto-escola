@@ -14,7 +14,12 @@ header{
     background-color: #850606;
 }
 
+body{
+    margin: auto;
+}
+
 .tl{
+
     display: flex;
     margin: 15px 0px 15px 0px;
     }
@@ -23,14 +28,11 @@ header{
         text-align: end;
 
     }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 677px) {
 
-    .container{
-        margin: auto;
-    }
 
     .column{
-        width: 340px;
+        width: 60vw;
         padding: 10px;
         margin: auto;
         text-align: justify;
@@ -46,5 +48,34 @@ header{
         color: #0b144b;
         cursor: pointer;
     }
+
     
+    .column-2 img{
+       text-align: center;
+        width: 370px;
+    }
+
+    .column-2{
+        margin: auto;
+        margin-top: 40px;
+        width: 360px;
+     }
+     
+     .column-2 h1{
+        font-size: 50px;
+        font-weight: normal;
+     }
+
+     .column-2 h2{
+        font-size: 35px;
+        color: #0069d2;
+        margin: 15px;
+        cursor: pointer;
+     }
+
+     .column-2 p{
+        font-size: 20px;
+        text-align: justify;
+     }
+     
 }
