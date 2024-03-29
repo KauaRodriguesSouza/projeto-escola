@@ -94,16 +94,17 @@ header{
 
     .container-4{
         display: flex;
+        text-align: center;
         background-color: #004aad;
         color: white;
     }
 
-    .tba{
-       
-       width: 130px;
-       height: 250px;
-       margin: 5px;
-       margin-top: 10%;
+    a{
+        color: #00d5ff;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #082fb0;
     }
 
     .column-4 h1{
