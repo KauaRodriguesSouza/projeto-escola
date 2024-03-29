@@ -16,19 +16,35 @@ header{
 
 .tl{
         display: flex;
+        padding: 10px;        
     }
 
+    .tl-2{
+        text-align: end;
+    }
 @media screen and (max-width: 480px) {
 
     .container{
-        width: 100vw;
-        
+        margin: auto;
+        width: 78vw;
     }
 
     .column{
-        margin: 25px;
+        width: 350px;
         padding: 10px;
-
+        margin: auto;
+        text-align: justify;
     }
 
+    .citação{
+        font-size: 16px;
+        color: #0069d2;
+        margin: 7px;
+        font-weight: 900;
+    }
+    .citação:hover{
+        color: #0b144b;
+        cursor: pointer;
+    }
+    
 }
