@@ -18,7 +18,7 @@ header {
 
 .tl {
     display: flex;
-    margin-left: 4.5em;
+    margin-left: 4em;
 }
 
 .tl-2 {
@@ -127,7 +127,7 @@ a:hover {
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     .tl{
-        margin-left: 12vw;
+        margin-left: 5.4em;
         margin-bottom: 8px;
     }
     .tl-2{
