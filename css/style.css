@@ -18,13 +18,15 @@ header {
 
 .tl {
     display: flex;
-    margin-left: 4em;
+    margin-left: 10%;
+    font-size: 13px;
+    align-items: center;
 }
 
 .tl-2 {
     display: flex;
     justify-content: end;
-    margin-right: 45px;
+    margin-right: 10%;
 }
 
 .container {
@@ -124,11 +126,18 @@ a:hover {
     padding: 5px;
 }
 
+.cl-tabata{
+    display: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     .tl{
-        margin-left: 5.4em;
+        margin-left: 7em;
         margin-bottom: 8px;
+    }
+    .tl h1{
+        font-size: 40px;
     }
     .tl-2{
         margin: 8px;
@@ -136,7 +145,6 @@ a:hover {
     }
 
     .container {
-        width: 80vw;
         display: flex;
         margin: auto;
     }
@@ -155,21 +163,7 @@ a:hover {
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.267);
     }
 
-    .citação {
-        font-size: 15px;
-        color: #0069d2;
-        margin: 7px;
-        font-weight: 900;
-    }
-
-    .citação:hover {
-        color: #0b144b;
-        cursor: pointer;
-    }
-
-    
     .container-2{
-        width: 80vw;
         display: flex;
         align-items: center;
         margin-bottom: 20px;
@@ -180,7 +174,7 @@ a:hover {
     }
 
     .tba {
-        width: 40%;
+        width: 45%;
     }
     .column-2 h1 {
         font-size: 6vw;
@@ -195,48 +189,33 @@ a:hover {
     }
 
     .column-2 p {
-        font-size: 15px;
-        text-align: justify;
+        font-size: 16px;
     }
 
     .container-3 {
-        width: 80vw;
         display: flex;
-        margin: auto;
+        margin-bottom: 30px;
     }
     .column-3 {
         flex: 1;
-        margin: auto;
-        padding: 5px;
-
+        margin: 5px;
     }
+    
     .column-3 img{
         margin: 20px 0px 0px 60px;
     }
+    
+    .column-3 p{
+        font-size: 14px;
+    }
+    
     .container-4 {
-        margin: auto;
-        display: flex;
-        text-align: center;
-        background-color: #004aad;
-        color: white;
+        align-items: center;
     }
 
-    a {
-        color: #00d5ff;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #082fb0;
-    }
-
-    .column-4 h1 {
-        font-size: 40px;
-    }
-
-    .column-4 p {
-        font-size: 18px;
-        padding: 5px;
+    .cl-tabata{
+        display: inline;
+        width: 170px;
     }
 }
 
