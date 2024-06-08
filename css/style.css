@@ -65,8 +65,8 @@ header {
 }
 
 .tba {
-    width: 100%;
-    margin: 10px;
+    width: 500px;
+    margin-top: auto;
 }
 
 .column-2 {
@@ -111,6 +111,7 @@ header {
     display: flex;
     background-color: #004aad;
     color: white;
+    padding: 20px;
 }
 
 a {
@@ -120,6 +121,11 @@ a {
 
 a:hover {
     color: #082fb0;
+}
+
+.column-4{
+    margin: auto;
+    width: 80vw;
 }
 
 .column-4 h1 {
@@ -179,7 +185,9 @@ a:hover {
     }
 
     .tba {
-        width: 45%;
+        display: block;
+        width: 250px;
+        margin-left: 25px;
     }
     .column-2 h1 {
         font-size: 6vw;
@@ -219,9 +227,13 @@ a:hover {
         align-items: center;
     }
 
+    .column-4{
+        width: 55vw;
+    }
+
     .cl-tabata{
         display: inline;
-        width: 170px;
+        width: 200px;
     }
 }
 
@@ -270,7 +282,9 @@ a:hover {
     }
 
     .tba {
-        width: 55%;
+        display: block;
+        width: 350px;
+        margin-left: 30px;
     }
     .column-2 h1 {
         font-size: 6vw;
@@ -308,12 +322,25 @@ a:hover {
     
     .container-4 {
         align-items: center;
+
+    }
+
+    .column-4{
+        width: 50vw;
+    }
+
+    .column-4 h1 {
+        font-size: 50px;
+    }
+
+    .column-4 p {
+        font-size: 25px;
     }
 
     .cl-tabata{
         display: block;
         margin: 20px;
-        width: 200px;
+        width: 250px;
     }
 
 }
