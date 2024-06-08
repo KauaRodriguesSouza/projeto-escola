@@ -65,8 +65,12 @@ header {
 }
 
 .tba {
+<<<<<<< HEAD
     width: 500px;
     margin-top: auto;
+=======
+display: none;
+>>>>>>> fcf9dba8a8bfb0008b7647120a87e612c3222705
 }
 
 .column-2 {
@@ -124,8 +128,13 @@ a:hover {
 }
 
 .column-4{
+<<<<<<< HEAD
     margin: auto;
     width: 80vw;
+=======
+    width: 80vw;
+    margin: auto;
+>>>>>>> fcf9dba8a8bfb0008b7647120a87e612c3222705
 }
 
 .column-4 h1 {
@@ -222,15 +231,17 @@ a:hover {
     .column-3 p{
         font-size: 14px;
     }
-    
-    .container-4 {
-        align-items: center;
-    }
 
     .column-4{
+<<<<<<< HEAD
         width: 55vw;
     }
 
+=======
+        width: 60vw;
+        margin: auto;
+    }
+>>>>>>> fcf9dba8a8bfb0008b7647120a87e612c3222705
     .cl-tabata{
         display: inline;
         width: 200px;
@@ -283,7 +294,11 @@ a:hover {
 
     .tba {
         display: block;
+<<<<<<< HEAD
         width: 350px;
+=======
+        width: 250px;
+>>>>>>> fcf9dba8a8bfb0008b7647120a87e612c3222705
         margin-left: 30px;
     }
     .column-2 h1 {
@@ -335,6 +350,11 @@ a:hover {
 
     .column-4 p {
         font-size: 25px;
+    }
+
+    .column-4{
+        width: 57vw;
+        margin: auto;
     }
 
     .cl-tabata{
