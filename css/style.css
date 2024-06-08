@@ -65,8 +65,7 @@ header {
 }
 
 .tba {
-    width: 100%;
-    margin: 10px;
+display: none;
 }
 
 .column-2 {
@@ -120,6 +119,11 @@ a {
 
 a:hover {
     color: #082fb0;
+}
+
+.column-4{
+    width: 80vw;
+    margin: auto;
 }
 
 .column-4 h1 {
@@ -179,7 +183,9 @@ a:hover {
     }
 
     .tba {
-        width: 45%;
+        display: block;
+        width: 250px;
+        margin-left: 25px;
     }
     .column-2 h1 {
         font-size: 6vw;
@@ -214,11 +220,11 @@ a:hover {
     .column-3 p{
         font-size: 14px;
     }
-    
-    .container-4 {
-        align-items: center;
-    }
 
+    .column-4{
+        width: 60vw;
+        margin: auto;
+    }
     .cl-tabata{
         display: inline;
         width: 170px;
@@ -270,7 +276,9 @@ a:hover {
     }
 
     .tba {
-        width: 55%;
+        display: block;
+        width: 250px;
+        margin-left: 30px;
     }
     .column-2 h1 {
         font-size: 6vw;
@@ -308,6 +316,11 @@ a:hover {
     
     .container-4 {
         align-items: center;
+    }
+
+    .column-4{
+        width: 57vw;
+        margin: auto;
     }
 
     .cl-tabata{
