@@ -194,9 +194,8 @@ a:hover {
     }
 
     .tba {
-        display: block;
-        width: 250px;
-        margin-left: 25px;
+        width: 350px;
+        margin-bottom: 20px;
     }
     .column-2 h1 {
         font-size: 6vw;
@@ -233,15 +232,9 @@ a:hover {
     }
 
     .column-4{
-<<<<<<< HEAD
         width: 55vw;
     }
 
-=======
-        width: 60vw;
-        margin: auto;
-    }
->>>>>>> fcf9dba8a8bfb0008b7647120a87e612c3222705
     .cl-tabata{
         display: inline;
         width: 200px;
@@ -293,13 +286,9 @@ a:hover {
     }
 
     .tba {
-        display: block;
-<<<<<<< HEAD
-        width: 350px;
-=======
-        width: 250px;
->>>>>>> fcf9dba8a8bfb0008b7647120a87e612c3222705
+        width: 400px;
         margin-left: 30px;
+        margin-bottom: 30px;
     }
     .column-2 h1 {
         font-size: 6vw;
